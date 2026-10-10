@@ -101,3 +101,11 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
+@media (width < 768px){
+
+   .tarjetitas {
+        flex-direction: column;
+   } 
+
+}
